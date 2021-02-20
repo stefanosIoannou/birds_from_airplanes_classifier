@@ -4,8 +4,8 @@
 - Optimizer: Atom with default parameters
 - Testing was done using the CIFAR10 test_dataset, but only using accuracy as a metric. Recall, Precision and F1 score should also be done since this is a classifier
 - Readings have been plotted using **TensorBoard**: 
-    - [Babysitting](\runs\Babysitting): Referers to the sanity check made to ensure the model runs properly and can ovefit
-    - [Lr_reg](runs\lr_reg): Reading collected when doing hyperparameter tuning for the learning rate and the regularisation factor
+    - [Babysitting](runs/Babysitting): Referers to the sanity check made to ensure the model runs properly and can ovefit
+    - [Lr_reg](runs/lr_reg): Reading collected when doing hyperparameter tuning for the learning rate and the regularisation factor
     <p><table>
     <tr>
     <td>
@@ -17,7 +17,7 @@
     </tr>
     </table></p>
 
-    - [Training](runs\Training): Training routines initiated with the hyperparameters chosen
+    - [Training](runs/Training): Training routines initiated with the hyperparameters chosen
     <p><img src="imgs_for_markdown/training.png"/></p>
 
 - Saved models can be found under [Models](models)
