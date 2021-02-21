@@ -1,7 +1,7 @@
 # Distinguishing Birds from Airplanes using the CIFAR10 dataset
 - A simple classifier to distinguish birds from airplanes using the CIFAR10 dataset using mainly PyTorch
 - Hyperparameter tuning has been done only for the learning rate and the regularisation factor (momentum will be done later)
-- Optimizer: Atom with default parameters
+- Optimizer: Adam with default parameters
 - Testing was done using the CIFAR10 test_dataset, but only using accuracy as a metric. Recall, Precision and F1 score should also be done since this is a classifier
 - Readings have been plotted using **TensorBoard**: 
     - [Babysitting](runs/Babysitting): Referers to the sanity check made to ensure the model runs properly and can ovefit
